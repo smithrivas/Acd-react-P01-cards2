@@ -25,7 +25,7 @@ function App() {
     setIndexTheme(Math.floor(Math.random() * themes.length));
     let themeSel = themes[Number(indexTheme)][0];
     let colorSel = themes[Number(indexTheme)][1];
-    document.body.style = `background-image: url(src/assets/img/${themeSel}); color: ${colorSel}`;
+    document.body.style = `background-image: url(public/img/${themeSel}); color: ${colorSel}`;
   }
 
   return (
